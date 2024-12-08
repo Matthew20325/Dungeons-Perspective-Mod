@@ -8,7 +8,6 @@ def run_file(filename):
     full_path = os.path.join(filename + extension_dict.get(filename, ""))
     try:
         os.startfile(full_path)
-        
     except Exception as e:
         messagebox.showerror("Error", f"Unable to run '{filename}': {str(e)}")
 
@@ -118,11 +117,16 @@ class Settings:
 # Create settings instance
 settings = Settings()
 
-# Function to update sensitivity setting from slider
-def update_sensitivity(value):
+# Function to update sensitivity label from slider without saving
+def update_sensitivity_label(value):
     sensitivity = round(float(value))  # Round to the nearest whole number
-    settings.set('Sensitivity', sensitivity)
     sensitivity_label.config(text=f"Sensitivity: {sensitivity}")  # Update label with rounded value
+
+# Function to save sensitivity when Apply is clicked
+def save_sensitivity():
+    sensitivity = round(float(sensitivity_slider.get()))
+    settings.set('Sensitivity', sensitivity)
+    messagebox.showinfo("Settings Saved", f"Sensitivity set to {sensitivity}")  # Optional: Show confirmation
 
 # Frame for sensitivity slider
 sensitivity_frame = ttk.Frame(root, padding=10)
@@ -133,9 +137,13 @@ sensitivity_label = ttk.Label(sensitivity_frame, text=f"Sensitivity: {settings.g
 sensitivity_label.pack()
 
 # Sensitivity slider (0-100)
-sensitivity_slider = ttk.Scale(sensitivity_frame, from_=1, to=100, orient="horizontal", command=update_sensitivity, length=300)
+sensitivity_slider = ttk.Scale(sensitivity_frame, from_=1, to=99, orient="horizontal", command=update_sensitivity_label, length=300)
 sensitivity_slider.set(settings.get('Sensitivity'))  # Set the initial slider position
 sensitivity_slider.pack(pady=10)
+
+# Apply button under sensitivity slider
+apply_button = ttk.Button(sensitivity_frame, text="Apply", style="apply.TButton", command=save_sensitivity)
+apply_button.pack(pady=10)  # Adjust padding as needed
 
 # Run the Tkinter event loop
 root.mainloop()
