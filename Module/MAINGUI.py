@@ -34,7 +34,7 @@ def refresh_file_list():
 
 # Create the main Tkinter window
 root = tk.Tk()
-root.title("3rd Person Dungeons Menu")
+root.title("3rd Person & 1st Person Dungeons Menu")
 root.geometry("450x500")
 root.resizable(False, False)
 root.configure(background="#00274d")  # Dark blue background
