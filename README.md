@@ -1,12 +1,12 @@
 
 # Minecraft Dungeons 3rd Person Mod
-
+angesi
 First off, yes Minecraft Dungeons is already "third person" but it's not overhead. 
 
 
 ## Prerequisites
 
-The mod requires you to have already installed [Python](https://www.python.org) and [ViGemBusDriver](https://github.com/nefarius/ViGEmBus/releases)
+The mod requires you to have already installed [Python](https://www.python.org) and [VC Redist](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
 The mod is only compatable with windows; only tested on Windows 11
 
@@ -19,8 +19,7 @@ In the extracted folder open a command terminal in the current directory then ty
 Assuming you have python installed it will install all of the libraries you need.
 
 You should now be able to open Menu.bat and it should launch the Mod Men
-
-
+amera firstper
 ## Usage
 Open Minecraft Dungeons and the Menu
 ### Syncing The Controller

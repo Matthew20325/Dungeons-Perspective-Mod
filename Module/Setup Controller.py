@@ -4,6 +4,7 @@ import vgamepad as vg
 import os
 import keyboard
 gamepad = vg.VX360Gamepad()
+input("Press Enter when ready, and have your controller off")
 print("Make sure your controller is unplugged and you're on the main screen")
 time.sleep(5)
 gamepad.press_button(vg.XUSB_BUTTON.XUSB_GAMEPAD_A)

@@ -1,6 +1,6 @@
 pygame
 vgamepad
 keyboard
-tkinter
 pyinjector
 psutil
+pyautogui

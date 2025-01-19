@@ -1,57 +1,57 @@
-[10-12-2024 18:53:16] [ DEBUG ] :: Window found with title: 'UnrealWindow'
-[10-12-2024 18:53:16] [ DEBUG ] :: HWnd of MainWindow: 0x20984
-[10-12-2024 18:53:16] [ DEBUG ] :: Raw input registered
-[10-12-2024 18:53:16] [ DEBUG ] :: Hook set to XInputGetState
-[10-12-2024 18:53:16] [ DEBUG ] :: Hook set to GetMessageA
-[10-12-2024 18:53:16] [ DEBUG ] :: Hook set to GetMessageW
-[10-12-2024 18:53:16] [ DEBUG ] :: Hook set to PeekMessageA
-[10-12-2024 18:53:16] [ DEBUG ] :: Hook set to PeekMessageW
-[10-12-2024 18:53:16] [  UUU  ] :: All hooks enabled.
-[10-12-2024 18:53:16] [USERMSG] :: Processing AOB blocks. This can take a while...
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_ALLOWCHEATSCALL' found at address: 00007FF78C191977
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_CALL_TO_STATICCONSTRUCTOBJECT_INTERNAL' found at address: 00007FF78A34520D
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL1' found at address: 00007FF78C18F50C
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL2' found at address: 00007FF78C19084C
-[10-12-2024 18:53:16] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL3'! Hook not set.
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_LOCKED_FOV_READ' found at address: 00007FF78C19E311
-[10-12-2024 18:53:16] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_MENU_WRITE_INTERCEPT'! Hook not set.
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT1' found at address: 00007FF78C18F4CA
-[10-12-2024 18:53:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT2' found at address: 00007FF78C19080A
-[10-12-2024 18:53:16] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT3'! Hook not set.
-[10-12-2024 18:53:17] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_WRITE_INTERCEPT'! Hook not set.
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_ENABLE_SET_COMMAND' found at address: 00007FF78BF4C8F9
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_ENGINEVERSION' found at address: 00007FF78A201E45
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_GAMEVIEWPORTCLIENT_VIEWPORTCONSOLE_OFFSET' found at address: 00007FF78C363C8F
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_GENGINE' found at address: 00007FF78C363C8F
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_GENGINE_VIEWPORTCLIENT_OFFSET' found at address: 00007FF78C363C8F
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_GET_TIMEDILATION' found at address: 00007FF78A7BA600
-[10-12-2024 18:53:17] [ DEBUG ] :: Can't find pattern for block 'AOB_GET_TIMEDILATION_411'! Hook not set.
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_INPUTSETTINGS_CONSOLEKEYS_OFFSET' found at address: 00007FF78C346EEC
-[10-12-2024 18:53:17] [ DEBUG ] :: Pattern for block 'AOB_NAMESSTORE' found at address: 00007FF78B0C2C86
-[10-12-2024 18:53:18] [ DEBUG ] :: Pattern for block 'AOB_OBJECTSSTORE' found at address: 00007FF78B1F24BC
-[10-12-2024 18:53:18] [ DEBUG ] :: Pattern for block 'AOB_UWORLD_ISPAUSED' found at address: 00007FF78C025348
-[10-12-2024 18:53:18] [ DEBUG ] :: Pattern for block 'AOB_WIDGETOPACITYSET' found at address: 00007FF78B314541
-[10-12-2024 18:53:18] [  UUU  ] :: All critical AOB offsets found.
-[10-12-2024 18:53:18] [USERMSG] :: Processing AOB blocks done.
-[10-12-2024 18:53:18] [ DEBUG ] :: CurrentVersion address: 0x7ff78a201e4b
-[10-12-2024 18:53:18] [  UUU  ] :: The UUU will assume the game uses UE4 version: v4.22.00
-[10-12-2024 18:53:18] [ DEBUG ] :: GEngine variable address: 0x7ff78e74f5f8
-[10-12-2024 18:53:18] [ DEBUG ] :: GEngine address: 0x24d40429070
-[10-12-2024 18:53:18] [ DEBUG ] :: StaticConstructObject_Internal() address: 0x7ff78b249050
-[10-12-2024 18:53:18] [ DEBUG ] :: g_GameEngine_ViewPortClientOffset: 0x750
-[10-12-2024 18:53:18] [ DEBUG ] :: g_GameViewportClient_ViewportConsoleOffset: 0x40
-[10-12-2024 18:53:18] [  UUU  ] :: Cheats enabled. Type EnableCheats 1 in the console to allow cheat commands through the console
-[10-12-2024 18:53:18] [ DEBUG ] :: _consoleKeysOffsetInInputSettings: 0xd0
-[10-12-2024 18:53:18] [ DEBUG ] :: inputSettingsObject address: 0x24d3f3fe940
-[10-12-2024 18:53:18] [  UUU  ] :: Custom console key functionality available.
-[10-12-2024 18:53:18] [USERMSG] :: Console activated. Press ~ in-game to open the console.
-[10-12-2024 18:53:18] [ DEBUG ] :: g_WorldSettings_TimeDilationOffset: 0x3f8
-[10-12-2024 18:53:18] [ DEBUG ] :: Hook set to address: 00007FF78A7BA600
-[10-12-2024 18:53:18] [ DEBUG ] :: Hook set to address: 00007FF78C18F4D4
-[10-12-2024 18:53:18] [ DEBUG ] :: Hook set to address: 00007FF78C190814
-[10-12-2024 18:53:18] [  UUU  ] :: Waiting for camera struct interception...
-[10-12-2024 18:53:18] [USERMSG] :: Camera found.
-[10-12-2024 18:53:18] [ DEBUG ] :: Camera struct address: 0000024D5E1C1A70
-[10-12-2024 18:53:18] [ DEBUG ] :: Hook set to address: 00007FF78C18F50C
-[10-12-2024 18:53:18] [ DEBUG ] :: Hook set to address: 00007FF78C19084C
-[10-12-2024 18:53:18] [ DEBUG ] :: Pattern for block 'SET JMP END' found at address: 00007FF78BF4C95F
+[18-01-2025 21:28:15] [ DEBUG ] :: Window found with title: 'UnrealWindow'
+[18-01-2025 21:28:15] [ DEBUG ] :: HWnd of MainWindow: 0x3c0a12
+[18-01-2025 21:28:15] [ DEBUG ] :: Raw input registered
+[18-01-2025 21:28:16] [ DEBUG ] :: Hook set to XInputGetState
+[18-01-2025 21:28:16] [ DEBUG ] :: Hook set to GetMessageA
+[18-01-2025 21:28:16] [ DEBUG ] :: Hook set to GetMessageW
+[18-01-2025 21:28:16] [ DEBUG ] :: Hook set to PeekMessageA
+[18-01-2025 21:28:16] [ DEBUG ] :: Hook set to PeekMessageW
+[18-01-2025 21:28:16] [  UUU  ] :: All hooks enabled.
+[18-01-2025 21:28:16] [USERMSG] :: Processing AOB blocks. This can take a while...
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_ALLOWCHEATSCALL' found at address: 00007FF677F71977
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_CALL_TO_STATICCONSTRUCTOBJECT_INTERNAL' found at address: 00007FF67612520D
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL1' found at address: 00007FF677F6F50C
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL2' found at address: 00007FF677F7084C
+[18-01-2025 21:28:16] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_BLACKBARS_REMOVAL3'! Hook not set.
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_LOCKED_FOV_READ' found at address: 00007FF677F7E311
+[18-01-2025 21:28:16] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_MENU_WRITE_INTERCEPT'! Hook not set.
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT1' found at address: 00007FF677F6F4CA
+[18-01-2025 21:28:16] [ DEBUG ] :: Pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT2' found at address: 00007FF677F7080A
+[18-01-2025 21:28:16] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_STRUCT_INTERCEPT3'! Hook not set.
+[18-01-2025 21:28:17] [ DEBUG ] :: Can't find pattern for block 'AOB_CAMERA_WRITE_INTERCEPT'! Hook not set.
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_ENABLE_SET_COMMAND' found at address: 00007FF677D2C8F9
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_ENGINEVERSION' found at address: 00007FF675FE1E45
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_GAMEVIEWPORTCLIENT_VIEWPORTCONSOLE_OFFSET' found at address: 00007FF678143C8F
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_GENGINE' found at address: 00007FF678143C8F
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_GENGINE_VIEWPORTCLIENT_OFFSET' found at address: 00007FF678143C8F
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_GET_TIMEDILATION' found at address: 00007FF67659A600
+[18-01-2025 21:28:17] [ DEBUG ] :: Can't find pattern for block 'AOB_GET_TIMEDILATION_411'! Hook not set.
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_INPUTSETTINGS_CONSOLEKEYS_OFFSET' found at address: 00007FF678126EEC
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_NAMESSTORE' found at address: 00007FF676EA2C86
+[18-01-2025 21:28:17] [ DEBUG ] :: Pattern for block 'AOB_OBJECTSSTORE' found at address: 00007FF676FD24BC
+[18-01-2025 21:28:18] [ DEBUG ] :: Pattern for block 'AOB_UWORLD_ISPAUSED' found at address: 00007FF677E05348
+[18-01-2025 21:28:18] [ DEBUG ] :: Pattern for block 'AOB_WIDGETOPACITYSET' found at address: 00007FF6770F4541
+[18-01-2025 21:28:18] [  UUU  ] :: All critical AOB offsets found.
+[18-01-2025 21:28:18] [USERMSG] :: Processing AOB blocks done.
+[18-01-2025 21:28:18] [ DEBUG ] :: CurrentVersion address: 0x7ff675fe1e4b
+[18-01-2025 21:28:18] [  UUU  ] :: The UUU will assume the game uses UE4 version: v4.22.00
+[18-01-2025 21:28:18] [ DEBUG ] :: GEngine variable address: 0x7ff67a52f5f8
+[18-01-2025 21:28:18] [ DEBUG ] :: GEngine address: 0x1a97383a060
+[18-01-2025 21:28:18] [ DEBUG ] :: StaticConstructObject_Internal() address: 0x7ff677029050
+[18-01-2025 21:28:18] [ DEBUG ] :: g_GameEngine_ViewPortClientOffset: 0x750
+[18-01-2025 21:28:18] [ DEBUG ] :: g_GameViewportClient_ViewportConsoleOffset: 0x40
+[18-01-2025 21:28:18] [  UUU  ] :: Cheats enabled. Type EnableCheats 1 in the console to allow cheat commands through the console
+[18-01-2025 21:28:18] [ DEBUG ] :: _consoleKeysOffsetInInputSettings: 0xd0
+[18-01-2025 21:28:18] [ DEBUG ] :: inputSettingsObject address: 0x1a975411ba0
+[18-01-2025 21:28:18] [  UUU  ] :: Custom console key functionality available.
+[18-01-2025 21:28:18] [USERMSG] :: Console activated. Press ~ in-game to open the console.
+[18-01-2025 21:28:18] [ DEBUG ] :: g_WorldSettings_TimeDilationOffset: 0x3f8
+[18-01-2025 21:28:18] [ DEBUG ] :: Hook set to address: 00007FF67659A600
+[18-01-2025 21:28:18] [ DEBUG ] :: Hook set to address: 00007FF677F6F4D4
+[18-01-2025 21:28:18] [ DEBUG ] :: Hook set to address: 00007FF677F70814
+[18-01-2025 21:28:18] [  UUU  ] :: Waiting for camera struct interception...
+[18-01-2025 21:28:18] [USERMSG] :: Camera found.
+[18-01-2025 21:28:18] [ DEBUG ] :: Camera struct address: 000001A91470C4F0
+[18-01-2025 21:28:18] [ DEBUG ] :: Hook set to address: 00007FF677F6F50C
+[18-01-2025 21:28:18] [ DEBUG ] :: Hook set to address: 00007FF677F7084C
+[18-01-2025 21:28:18] [ DEBUG ] :: Pattern for block 'SET JMP END' found at address: 00007FF677D2C95F
