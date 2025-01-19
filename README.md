@@ -1,8 +1,5 @@
 
-# Minecraft Dungeons 3rd Person Mod
-angesi
-First off, yes Minecraft Dungeons is already "third person" but it's not overhead. 
-
+# Minecraft Dungeons Perspective Mod
 
 ## Prerequisites
 
