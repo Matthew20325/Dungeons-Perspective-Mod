@@ -5,6 +5,7 @@ import json
 
 # Predefined list of files with names and extensions combined
 files_data = [
+    {"File": "Initial Setup.py"},
     {"File": "Inject.py"},
     {"File": "Setup Controller.py"},
     {"File": "Activate 3rd Person.py"},
