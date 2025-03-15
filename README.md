@@ -15,7 +15,7 @@ In the extracted folder open a command terminal in the current directory then ty
 
 Assuming you have python installed it will install all of the libraries you need.
 
-You should now be able to open Menu.bat and it should launch the Mod Men
+
 amera firstper
 ## Usage
 Open Minecraft Dungeons and the Menu
